@@ -1,0 +1,91 @@
+header {
+  width: 100%;
+  height: 10%;
+  background-size: cover;
+  display: flex;
+  position: fixed;
+  flex-direction: column-reverse;
+  background-position: center;
+  border-radius: 0px 0px 30px 30px;
+  background-image: radial-gradient(circle at 0.93% 67.86%, #f5ff26 0, #ffff03 8.33%, #fffb00 16.67%, #ffe700 25%, #ffd100 33.33%, #ffb900 41.67%, #ffa001 50%, #f18811 58.33%, #e4721c 66.67%, #d86023 75%, #cd5029 83.33%, #c5422f 91.67%, #be3636 100%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.7s;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  z-index: 10;
+}
+
+.nav {
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all 0.5s ease;
+}
+
+#logo {
+  width: 130px;
+  height: 70px;
+  position: static;
+  left: 10px;
+  right: 2075px;
+  top: 11px;
+  bottom: 6062px;
+  border-radius: 65px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+
+.menu li a {
+  display: block;
+  position: relative;
+  padding-top: 10px;
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.menu li a:hover {
+  padding: 5px 10px;
+  background-image: radial-gradient(circle at 120.71% 50%, #f5ff26 0, #ffff03 8.33%, #fffb00 16.67%, #ffe700 25%, #ffd100 33.33%, #ffb900 41.67%, #ffa001 50%, #f18811 58.33%, #e4721c 66.67%, #d86023 75%, #cd5029 83.33%, #c5422f 91.67%, #be3636 100%);
+  color: white;
+  border-radius: 15px;
+}
+
+.submenu {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.336);
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  display: none;
+}
+
+.submenu li a {
+  display: block;
+  padding: 2px;
+  color: rgb(247, 248, 247);
+  text-decoration: none;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}

@@ -1,0 +1,13 @@
+.dark{
+    background-color: black;
+}
+
+.dark #modo{
+    background-color: rgba(220, 220, 220, 0);
+}
+
+.dark header{
+    box-shadow: 0px 15px 4px rgba(243, 243, 243, 0.13);
+    background-image: linear-gradient(230deg, #0b2342 0, #0c4cac 12.5%, #4a5efa 25%, #582df1 37.5%, #6605d4 50%, #8d05c7 62.5%, #960aa3 75%, #810877 87.5%, #4e013f94 100%);
+  
+}

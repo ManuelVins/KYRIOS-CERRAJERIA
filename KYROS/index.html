@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Libreria de iconos de google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Hojas de estilo CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-menu.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/dark.css">
+    <!--Asi se pone un icono a la pestaña de la pagina-->
+    <link rel="shortcut icon" href="./imagenes/logo.png">
+    <!--Fuentes de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2? family=Merriweather:wght@300&family=Roboto+Slab:wght@400;500;600&display=swap"
+        rel="stylesheet">
+        <!--Libreria de animacion java-->
+        <script src="./javascript/scrollreveal.js"></script>
+    <!--Titulo-->
+    <title>KYRIOS Cerrajeria</title>
+
+
+</head>
+
+<body class="">
+    <header>
+        <nav class="nav">
+
+            <img src="./imagenes/logo.png" alt="Logotipo de KyrosC" id="logo">
+
+            <ul class="menu">
+                <li class="menu_items"><a href="#inicio" class="menu_links">Inicio</a></li>
+                <li class="menu_items"><a href="#nosotros" class="menu_links">Sobre Nosotros</a></li>
+                <li class="menu_items"><a href="#servicios" class="menu_links">Servicios</a>
+                    <ul class="submenu">
+                        <li class="menu_items"><a href="#productos" class="menu_links">Productos</a></li>
+                    </ul>
+                </li>
+                <li class="menu_items"><a href="#contacto" class="menu_links">Contacto</a></li>
+
+                <div id="modo">
+                    <span class="material-icons-outlined">
+                        dark_mode
+                    </span>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="secion" id="inicio">
+            <div class="fondo_del_carrusel">
+                <!--img slider start-->
+                <div class="slider">
+                    <div class="slides">
+                        <!--radio botton start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <!--radio botton finish-->
+                        <!--slide imagen start-->
+                        <div class="slide first" id="separarimg">
+                            <img src="./imagenes/carrusel/carrusel1.png" alt="">
+                        </div>
+                        <div class="slide" id="separarimg">
+                            <img src="./imagenes/carrusel/carrusel2.jpg" alt="">
+                        </div>
+                        <div class="slide" id="separarimg">
+                            <img src="./imagenes/carrusel/carrusel3.jpg" alt="">
+                        </div>
+                        <div class="slide" id="separarimg">
+                            <img src="./imagenes/carrusel/carrusel4.jpg" alt="">
+                        </div>
+                        <div class="slide" id="separarimg">
+                            <img src="./imagenes/carrusel/carrusel5.jpg" alt="">
+                        </div>
+                        <!--slide imagen end-->
+                        <!--automatic navegation start-->
+                        <div class="navegation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                        <!--automatic navegation end-->
+                    </div>
+                    <!--manual navegation start-->
+                    <div class="navegation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                    </div>
+                    <!--manual navegation end-->
+                </div>
+
+
+            </div>
+        </section>
+        <section class="seccion" id="nosotros">
+            <h1>Sobre Nosotros</h1>
+            <section class="datos">
+                <p>En Cerragerias KYROS trabajamos simpre con honestidad, buscando ofrecer servicios y porductos optimos
+                    y eficienes al mejor precio. <br> <br> Somos una empresa innovadora dedicada a realizar diversos
+                    trabajos
+                    de cerrajería automotriz, residencial y empresarial, ya que contamos con un amplio conocimiento en
+                    el ramo. <br> <br> Contamos con productos de alta calidad y a un buen precio, este negocio tiene mas
+                    de
+                    20 años en el mercado dandoles buenas experiencias a los clientes.</p>
+                <div class="imagen">
+                    <img src="./imagenes/llaves-sobrenosotros.png" alt="">
+                </div>
+            </section>
+
+        </section>
+        <section class="seccion" id="servicios">
+            <section class="mediaparte1">
+                <div class="imagen-servicio">
+                    <img src="./imagenes/imagenServicio.png" alt="Imagen de servicios">
+                </div>
+            </section>
+            <section class="mediaparte2">
+                
+                <h1>Nuestros Servicios</h1>
+                <section class="servicio">
+                    <div class="puntos-servicios">
+                        <li>Duplicados de llaves de cualquier tipo.</li>
+                        <li>Aperturas de cualquier tipo de vehiculo.</li>
+                        <li>Elaboracion de llaves originales para vehiculo.</li>
+                        <li>Apertura de caja.</li>
+                        <li>Mantenimiento.</li>
+                        <li>Cambio de combinaciones.</li>
+                        <li>Venta de canadados de alta seguridad.</li>
+                        <li>Venta de llaveros y accesorios.</li>
+                    </div>
+                </section>
+                <button onclick="document.location='servicios.html'">Ver más</button>
+            </section>
+
+
+        </section>
+        <section class="secion" id="productos">
+            <h1>Productos</h1>
+            <div class="contenedor_cards">
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto 1</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto1.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto2.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imagen_card">
+                        <img src="./producto3.png" alt="">
+                    </div>
+                    <div class="descripcion_card">
+                        <h2>Producto</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt vero consectetur beatae quo velit eveniet reiciendis dolore voluptatibus iure incidunt minus sequi perferendis, ipsa fuga nulla nesciunt, quibusdam doloribus eum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion" id="empresas"></section>
+        <section class="seccion" id="elejir"></section>
+        <section class="seccion" id="comentarios"></section>
+        <section class="seccion" id="horario"></section>
+        <section class="seccion" id="contacto">
+            <h1>Contactanos</h1>
+            <section class="formulario_completo">
+
+                <section class="contact_info">
+                    <p>Mandanos un mensaje</p>
+                    <p><span class="material-icons">
+                            markunread
+                        </span> ips0@hotmail.com</p>
+                    <p><span class="material-icons">
+                            call
+                        </span> +527772880105 <br> +527772280400 <br> +527773022230</p>
+                    <p><span class="material-icons">
+                            place
+                        </span> Av.Plan De Ayala 418, Col.Amatitlan, 62410 Cuernavaca, Morelos. México </p>
+
+                </section>
+                <div class="icono">
+                    <img src="./imagenes/1486164461-send_79678.png " alt="">
+                </div>
+                <section class="formulario_mensaje">
+                    <div class="user_info">
+                        <label for="name">Nombre *</label>
+                        <input type="text" id="name">
+
+                        <label for="lastname">Apellido</label>
+                        <input type="text" id="lastname">
+
+                        <label for="mail">Correo *</label>
+                        <input type="text" id="mail">
+
+                        <label for="phone">Telefono/Celular</label>
+                        <input type="text" id="phone">
+
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje"></textarea>
+
+                        <input type="button" value="Enviar" id="btnSend">
+                    </div>
+                </section>
+            </section>
+
+
+
+
+            <section class="maps"></section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="piedepagina">
+            <label for="Piedepagina">© Copyright 2021-Cerrajeria Kyrios </label>
+        </div>
+    </footer>
+    <!--div para que la barra de manu sea movible-->
+    <div class="scol"></div>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/dark.js"></script>
+    <script src="./javascript/carruselauto.js"></script>
+    <script src="./javascript/animaciones.js"></script>
+</body>
+
+</html>
